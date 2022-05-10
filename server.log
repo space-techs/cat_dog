@@ -1,0 +1,23 @@
+nohup: ignoring input
+2021-11-27 17:36:18.512927: I tensorflow_serving/model_servers/server.cc:89] Building single TensorFlow model file config:  model_name: cat_dog_classifier model_base_path: /home/space/Desktop/space/cat_dog/cat_dog_classifier/
+2021-11-27 17:36:18.513175: I tensorflow_serving/model_servers/server_core.cc:465] Adding/updating models.
+2021-11-27 17:36:18.513197: I tensorflow_serving/model_servers/server_core.cc:591]  (Re-)adding model: cat_dog_classifier
+2021-11-27 17:36:18.515699: I tensorflow_serving/core/basic_manager.cc:740] Successfully reserved resources to load servable {name: cat_dog_classifier version: 1}
+2021-11-27 17:36:18.515731: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: cat_dog_classifier version: 1}
+2021-11-27 17:36:18.515744: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: cat_dog_classifier version: 1}
+2021-11-27 17:36:18.515787: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:43] Reading SavedModel from: /home/space/Desktop/space/cat_dog/cat_dog_classifier/1
+2021-11-27 17:36:18.522042: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:107] Reading meta graph with tags { serve }
+2021-11-27 17:36:18.522120: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:148] Reading SavedModel debug info (if present) from: /home/space/Desktop/space/cat_dog/cat_dog_classifier/1
+2021-11-27 17:36:18.522242: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-27 17:36:18.575903: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:210] Restoring SavedModel bundle.
+2021-11-27 17:36:18.705815: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:194] Running initialization op on SavedModel bundle at path: /home/space/Desktop/space/cat_dog/cat_dog_classifier/1
+2021-11-27 17:36:18.736872: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:283] SavedModel load for tags { serve }; Status: success: OK. Took 221079 microseconds.
+2021-11-27 17:36:18.738933: I tensorflow_serving/servables/tensorflow/saved_model_warmup_util.cc:59] No warmup data file found at /home/space/Desktop/space/cat_dog/cat_dog_classifier/1/assets.extra/tf_serving_warmup_requests
+2021-11-27 17:36:18.740220: I tensorflow_serving/core/loader_harness.cc:87] Successfully loaded servable version {name: cat_dog_classifier version: 1}
+2021-11-27 17:36:18.741059: I tensorflow_serving/model_servers/server_core.cc:486] Finished adding/updating models
+2021-11-27 17:36:18.741107: I tensorflow_serving/model_servers/server.cc:133] Using InsecureServerCredentials
+2021-11-27 17:36:18.741123: I tensorflow_serving/model_servers/server.cc:383] Profiler service is enabled
+2021-11-27 17:36:18.742092: I tensorflow_serving/model_servers/server.cc:409] Running gRPC ModelServer at 0.0.0.0:8500 ...
+2021-11-27 17:36:18.742501: I tensorflow_serving/model_servers/server.cc:430] Exporting HTTP/REST API at:localhost:8502 ...
+[evhttp_server.cc : 245] NET_LOG: Entering the event loop ...
